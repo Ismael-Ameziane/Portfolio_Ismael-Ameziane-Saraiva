@@ -36,6 +36,7 @@ build/
 *.rar
 *.7z
 
-# fichiers spécifiques projet
+# Binaires / DLL
 *.dll
 *.lock
+*.exe
