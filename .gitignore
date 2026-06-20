@@ -1,0 +1,41 @@
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Fichiers temporaires éditeurs
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Variables d'environnement
+.env
+
+# Dépendances Node.js (si tu en ajoutes plus tard)
+node_modules/
+
+# Dossiers de build
+dist/
+build/
+
+# Cache
+.cache/
+.parcel-cache/
+
+# Fichiers temporaires
+*.tmp
+*.temp
+
+# Fichiers de sauvegarde
+*.bak
+*.swp
+
+# Archives
+*.zip
+*.rar
+*.7z
+
+# fichiers spécifiques projet
+*.dll
+*.lock
