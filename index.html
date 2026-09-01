@@ -3,98 +3,300 @@
 	<head>
 		<meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio - Ismaël Ameziane-Saraiva</title>
         <link rel="stylesheet" type="text/css" href="css/style.css">
     </head>
 
     <body>
-        <header>
-            <div class="logo">
-                Mon Portfolio
-            </div>
+        <header class="topbar">
+            <div class="logo">Mon Portfolio</div>
 
             <nav>
-                <a href="index.html">Présentation</a>
-                <a href="projets.html">Projets</a>
-                <a href="contact.html">Contact</a>
+                <a href="#presentation">Présentation</a>
+                <a href="#parcours">Parcours</a>
+                <a href="#competences">Compétences</a>
+                <a href="#projets">Projets</a>
+                <a href="#contact">Contact</a>
             </nav>
-         </header>
+        </header>
 
-        <section class="hero">
-            <h1>Ismaël Ameziane-Saraiva</h1>
+        <main class="page-shell">
+            <section id="presentation" class="hero-section">
+                <div class="hero-copy">
+                    <h1>Ismaël <span>AMEZIANE-SARAIVA</span></h1>
+                    <p class="subtitle">Développeur d'applications &amp; étudiant en informatique</p>
+                    <p class="intro">
+                        Actuellement en BUT Informatique à l'IUT de Créteil-Vitry, je me spécialise dans le développement tout en cultivant une polyvalence technique.
+                    </p>
 
-            <h2>
-                Étudiant en BUT Informatique • Alternant à La Banque Postale
-            </h2>
-
-            <p>
-                Passionné par le développement web, le design numérique et l'analyse
-                de données, je développe des applications modernes tout en m'intéressant
-                au marketing digital et à l'expérience utilisateur.
-            </p>
-        </section> 
-
-        <section class="timeline-section">
-            <h2>Formation Académique</h2>
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="date">
-                        2023
+                    <div class="cta-row">
+                        <a href="#projets" class="btn btn-primary">Voir mes projets</a>
+                        <a href="contact.html" class="btn btn-secondary">Me contacter</a>
+                        <a href="assets/Ameziane-Saraiva_CV.pdf" class="btn btn-secondary" download> Télécharger CV </a>
                     </div>
 
-                    <div class="content">
-                        <h3>Baccalauréat Générale, spécialité Physique-Chimie et SVT </h3>
-
-                        <p>Lycée Darius Milhaud, Kremlin-Bicêtre, 94</p>
+                    <div class="social-row">
+                        <a href="https://github.com/Ismael-Ameziane" target="_blank" aria-label="GitHub" class="social-link github-link">
+                            <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                                <path d="M12 .5C5.65.5.5 5.65.5 12c0 5.09 3.29 9.4 7.86 10.92.58.11.79-.25.79-.56v-2.2c-3.2.7-3.87-1.36-3.87-1.36-.52-1.33-1.28-1.68-1.28-1.68-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.2 1.77 1.2 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.7 0-1.26.45-2.29 1.19-3.09-.12-.29-.52-1.46.11-3.04 0 0 .97-.31 3.18 1.18a11.08 11.08 0 0 1 5.8 0c2.2-1.49 3.17-1.18 3.17-1.18.64 1.58.24 2.75.12 3.04.75.8 1.18 1.83 1.18 3.09 0 4.43-2.7 5.4-5.27 5.69.41.36.78 1.07.78 2.16v3.2c0 .31.21.67.8.56A11.5 11.5 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5Z" fill="currentColor"/>
+                            </svg>
+                        </a>
+                        <a href="https://linkedin.com/in/ismaël-ameziane-saraiva-37625a2b8" target="_blank" aria-label="LinkedIn" class="social-link">
+                            <span class="linkedin-text">in</span>
+                        </a>
                     </div>
                 </div>
 
-                <div class="timeline-item">
-                    <div class="date">
-                        2023 - 2024
-                    </div>
-
-                    <div class="content">
-                        <h3>BUT Informatique</h3>
-                        <p>IUT de Créteil-Vitry</p>
+                <div class="hero-visual" aria-label="Photo de profil">
+                    <div class="avatar-circle">
+                        <img src="assets/isma_photo-pro.png" alt="Ismaël Ameziane-Saraiva" />
                     </div>
                 </div>
+            </section>
 
-                <div class="timeline-item">
-                    <div class="date">
-                        2024 - 2026
-                    </div>
-                    <div class="content">
-                        <span class="badge formation">
-                            Parcours A - Réalisation d'applications
-                        </span>
-                        <h3>BUT Informatique</h3>
-                        <p>IUT de Créteil-Vitry</p>
-                    </div>
+            <section id="parcours" class="section parcours-section">
+                <div class="section-header">
+                    <h2>Mon Parcours Scolaire</h2>
+                    <span class="title-line"></span>
                 </div>
 
-            </div>
-        </section>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-card">
+                            <div class="timeline-date">2023 - Aujourd'hui</div>
+                            <h3>BUT Informatique</h3>
+                            <p class="school">IUT de Créteil-Vitry</p>
+                            <p class="detail">Parcours : Réalisation d'applications, conception, développement, validation .</p>
+                        </div>
+                    </div>
 
-        <section class="cv-section">
-            <a href="assets/cv.pdf" download class="cv-btn">
-                Télécharger mon CV
-            </a>
-        </section>
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-card">
+                            <div class="timeline-date">2023</div>
+                            <h3>Baccalauréat</h3>
+                            <p class="school">Lycée Darius Milhaud - Kremlin-Bicêtre - 94</p>
+                            <p class="detail"> Baccalauréat générale Spécialités : Physique-Chimie, SVT, Maths complémentaire</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
-        <footer>
+            <section class="section experience-section">
+                <div class="section-header">
+                    <h2>Expérience Professionnelle</h2>
+                    <span class="title-line"></span>
+                </div>
+
+                <div class="timeline experience-timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-card experience-card">
+                            <div class="timeline-header-row">
+                                <div>
+                                    <div class="timeline-date">Septembre 2024 - Septembre 2026</div>
+                                    <h3>Apprenti DevOps</h3>
+                                </div>
+                                <div class="company-logo" aria-label="La Banque Postale">
+                                    <img src="assets/logo_lbp.png" alt="Logo La Banque Postale" />
+                                </div>
+                            </div>
+                            <p class="school">La Banque Postale</p>
+
+                            <ul class="experience-list">
+                                <li>Automatisation des déploiements et configurations</li>
+                                <li>Développement de scripts Python, Shell et YAML</li>
+                                <li>Mise en œuvre d’un Plan de Reprise d’Activité (PRA)</li>
+                                <li>Gestion des sauvegardes et restauration des données Elasticsearch</li>
+                                <li>Supervision, tests et suivi des opérations via les logs</li>
+                            </ul>
+
+                            <div class="experience-badges">
+                                <span class="chip mini-chip">YAML</span>
+                                <span class="chip mini-chip">Python</span>
+                                <span class="chip mini-chip">Shell</span>
+                                <span class="chip mini-chip">Bruno</span>
+                                <span class="chip mini-chip">OpenShift</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="competences" class="section competence-section">
+                <div class="section-header">
+                    <h2>Mes compétences</h2>
+                    <span class="title-line"></span>
+                </div>
+
+                <div class="skills-grid">
+                    <article class="skill-card">
+                        <h3>LANGAGES</h3>
+                        <div class="chips">
+                            <span class="chip">Java</span>
+                            <span class="chip">Python</span>
+                            <span class="chip">TypeScript</span>
+                            <span class="chip">JavaScript</span>
+                            <span class="chip">PHP</span>
+                            <span class="chip">HTML</span>
+                            <span class="chip">CSS</span>
+                            <span class="chip">C#</span>
+                        </div>
+                    </article>
+
+                    <article class="skill-card">
+                        <h3>FRAMEWORKS &amp; LIBRAIRIES</h3>
+                        <div class="chips">
+                            <span class="chip">React</span>
+                            <span class="chip">Angular</span>
+                            <span class="chip">Spring Boot</span>
+                            <span class="chip">Node.js</span>
+                            <span class="chip">Express</span>
+                        </div>
+                    </article>
+
+                    <article class="skill-card">
+                        <h3>BASE DE DONNÉES</h3>
+                        <div class="chips">
+                            <span class="chip">MySQL</span>
+                            <span class="chip">MongoDB</span>
+                            <span class="chip">Oracle</span>
+                        </div>
+                    </article>
+
+                    <article class="skill-card">
+                        <h3>OUTILS &amp; DEVOPS</h3>
+                        <div class="chips">
+                            <span class="chip">GitHub</span>
+                            <span class="chip">GitLab</span>
+                            <span class="chip">Docker</span>
+                            <span class="chip">Postman</span>
+                            <span class="chip">Bruno</span>
+                            <span class="chip">OpenShift</span>
+                            <span class="chip">JFrog</span>
+                        </div>
+                    </article>
+
+                    <article class="skill-card">
+                        <h3>SYSTÈMES D'EXPLOITATION</h3>
+                        <div class="chips">
+                            <span class="chip">Windows</span>
+                            <span class="chip">Linux</span>
+                        </div>
+                    </article>
+
+                    <article class="skill-card">
+                        <h3>LANGUES</h3>
+                        <div class="chips">
+                            <span class="chip">Français</span>
+                            <span class="chip">Anglais</span>
+                            <span class="chip">Espagnol</span>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <section id="projets" class="section project-section">
+                <div class="section-header">
+                    <h2>Mes Projets</h2>
+                    <span class="title-line"></span>
+                </div>
+
+                <div class="project-grid">
+                    <article class="project-card card-lila">
+                        <h3>MétéoClimat – SAE 3.01</h3>
+                        <p>Application web dédiée à la visualisation et à l’analyse de données météorologiques. Elle permet de gérer les comptes utilisateurs et administrateurs, de créer des tableaux de bord personnalisables et d’explorer les données à l’aide de graphiques, de stations météorologiques et de filtres spatiaux et temporels.</p>
+                        <div class="project-tags">
+                            <span>PHP</span>
+                            <span>MySQL</span>
+                            <span>JavaScript</span>
+                            <span>Chart.js</span>
+                        </div>
+                        <div class="project-actions">
+                            <span>ADAPTER</span>
+                            <span>ANALYSER & OPTIMISER</span>
+                            <span>COLLABORER</span>
+                        </div>
+                    </article>
+                    
+                    <article class="project-card card-rose">
+                        <h3>OncoVision</h3>
+                        <p>Plateforme web dédiée à la visualisation et à l’annotation collaborative d’images médicales. 
+                            Elle permet aux professionnels de santé de consulter des images histologiques, de les annoter en temps réel et de partager leurs observations. 
+                            Le projet repose sur une interface interactive développée avec React et un backend FastAPI pour la gestion et la synchronisation des annotations.</p>
+                        <div class="project-tags">
+                            <span>React</span>
+                            <span>Fast API</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="project-actions">
+                            <span>ADAPTER</span>
+                            <span>ANALYSER & OPTIMISER</span>
+                            <span>COLLABORER</span>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <section id="contact" class="section contact-section">
+                <div class="section-header">
+                    <h2>Contact</h2>
+                    <span class="title-line"></span>
+                </div>
+
+                <div class="contact-card-box">
+                    <a class="contact-card" href="https://github.com/Ismael-Ameziane" target="_blank" rel="noreferrer">
+                        <div class="contact-icon contact-icon-github" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" focusable="false">
+                                <path d="M12 .5C5.65.5.5 5.65.5 12c0 5.09 3.29 9.4 7.86 10.92.58.11.79-.25.79-.56v-2.2c-3.2.7-3.87-1.36-3.87-1.36-.52-1.33-1.28-1.68-1.28-1.68-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.2 1.77 1.2 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.7 0-1.26.45-2.29 1.19-3.09-.12-.29-.52-1.46.11-3.04 0 0 .97-.31 3.18 1.18a11.08 11.08 0 0 1 5.8 0c2.2-1.49 3.17-1.18 3.17-1.18.64 1.58.24 2.75.12 3.04.75.8 1.18 1.83 1.18 3.09 0 4.43-2.7 5.4-5.27 5.69.41.36.78 1.07.78 2.16v3.2c0 .31.21.67.8.56A11.5 11.5 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5Z" fill="currentColor"/>
+                            </svg>
+                        </div>
+                        <h3>GitHub</h3>
+                        <p>Mes projets open-source</p>
+                    </a>
+
+                    <a class="contact-card" href="https://linkedin.com/in/ismaël-ameziane-saraiva-37625a2b8" target="_blank" rel="noreferrer">
+                        <div class="contact-icon contact-icon-linkedin" aria-hidden="true">in</div>
+                        <h3>LinkedIn</h3>
+                        <p>Mon parcours professionnel</p>
+                    </a>
+
+                    <a class="contact-card" href="mailto:ismael.amezianesaraiva@gmail.com">
+                        <div class="contact-icon contact-icon-mail" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" focusable="false">
+                                <path d="M3.5 6.5A2.5 2.5 0 0 1 6 4h12a2.5 2.5 0 0 1 2.5 2.5v11A2.5 2.5 0 0 1 18 18H6a2.5 2.5 0 0 1-2.5-2.5v-11Zm2.1.7 6.4 5.1 6.4-5.1H5.6Zm13.4 1.1-6.76 5.39a1 1 0 0 1-1.28 0L4.9 8.3v9.2c0 .28.22.5.5.5h12.2a.5.5 0 0 0 .5-.5v-9.2Z" fill="currentColor"/>
+                            </svg>
+                        </div>
+                        <h3>Email</h3>
+                        <p>ismael.amezianesaraiva@gmail.com</p>
+                    </a>
+
+                    <a class="contact-card" href="assets/Ameziane-Saraiva_CV.pdf" target="_blank" rel="noreferrer" download>
+                        <div class="contact-icon contact-icon-cv" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" focusable="false">
+                                <path d="M12 3.5v9.2l-2.8-2.8L8 10.9l4 4 4-4-.2-.2-2.8 2.8V3.5h-1Zm-7 13.5h14v2H5v-2Z" fill="currentColor"/>
+                            </svg>
+                        </div>
+                        <h3>CV</h3>
+                        <p>Télécharger mon CV</p>
+                    </a>
+                </div>
+            </section>
+        </main>
+
+        <footer class="site-footer">
             <div class="footer-left">
-                <a href="https://github.com/Ismael-Ameziane" target="_blank">
-                    GitHub
+                <a href="https://github.com/Ismael-Ameziane" target="_blank" aria-label="GitHub" class="footer-icon">
+                    <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                        <path d="M12 .5C5.65.5.5 5.65.5 12c0 5.09 3.29 9.4 7.86 10.92.58.11.79-.25.79-.56v-2.2c-3.2.7-3.87-1.36-3.87-1.36-.52-1.33-1.28-1.68-1.28-1.68-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.2 1.77 1.2 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.7 0-1.26.45-2.29 1.19-3.09-.12-.29-.52-1.46.11-3.04 0 0 .97-.31 3.18 1.18a11.08 11.08 0 0 1 5.8 0c2.2-1.49 3.17-1.18 3.17-1.18.64 1.58.24 2.75.12 3.04.75.8 1.18 1.83 1.18 3.09 0 4.43-2.7 5.4-5.27 5.69.41.36.78 1.07.78 2.16v3.2c0 .31.21.67.8.56A11.5 11.5 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5Z" fill="currentColor"/>
+                    </svg>
                 </a>
-
-                <a href="https://linkedin.com/in/ismaël-ameziane-saraiva-37625a2b8" target="_blank">
-                    LinkedIn
+                <a href="https://linkedin.com/in/ismaël-ameziane-saraiva-37625a2b8" target="_blank" aria-label="LinkedIn" class="footer-icon footer-linkedin">
+                    in
                 </a>
             </div>
-
-            <div class="footer-center">
-                © Portfolio - Ismaël Ameziane-Saraiva
-            </div>
+            <div class="footer-center">© Portfolio - Ismaël Ameziane-Saraiva</div>
         </footer>
     </body>
 </html>
